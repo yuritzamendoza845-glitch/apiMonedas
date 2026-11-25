@@ -1,10 +1,10 @@
 variante,hilos,esperado,obtenido,perdidos,tiempo_ms
-C - AtomicLong (lock-free / CAS),500,2500000,2500000,0,80
+C - AtomicLong (lock-free / CAS),500,2500000,2500000,0,43
 C - AtomicLong (lock-free / CAS),1000,5000000,5000000,0,98
-C - AtomicLong (lock-free / CAS),2000,10000000,10000000,0,65
-B - synchronized (exclusion mutua),500,2500000,2500000,0,77
-B - synchronized (exclusion mutua),1000,5000000,5000000,0,68
-B - synchronized (exclusion mutua),2000,10000000,10000000,0,187
-A - Sin control (long sin sincronizar),500,2500000,2268559,231441,48
-A - Sin control (long sin sincronizar),1000,5000000,4696953,303047,76
-A - Sin control (long sin sincronizar),2000,10000000,9238727,761273,169
+C - AtomicLong (lock-free / CAS),2000,10000000,10000000,0,62
+B - synchronized (exclusion mutua),500,2500000,2500000,0,79
+B - synchronized (exclusion mutua),1000,5000000,5000000,0,89
+B - synchronized (exclusion mutua),2000,10000000,10000000,0,150
+A - Sin control (long sin sincronizar),500,2500000,2331985,168015,50
+A - Sin control (long sin sincronizar),1000,5000000,4649020,350980,91
+A - Sin control (long sin sincronizar),2000,10000000,9143970,856030,66
